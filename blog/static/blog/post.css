@@ -15,8 +15,9 @@
 .post a:hover,
 .post a:active {
   transform: scale(1.1);
-  background-color: #390281;
-  color: white;
+  background-color: #92B4EC;
+  color: #FFFFFF;
+  border-radius: 12px;
 }
 
 .post img {
@@ -39,5 +40,5 @@
 
 .post:hover time,
 .post:active time {
-  color: white;
+  color: #FFFFFF;
 }

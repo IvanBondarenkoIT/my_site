@@ -1,5 +1,9 @@
+body {
+  background-color: #FFD24C;
+}
+
 #welcome {
-  background: linear-gradient(to right top, #6305dd, #390281);
+  background: linear-gradient(to right top, #FFD24C, #92B4EC);
   padding: 6rem 12%;
 }
 
@@ -16,7 +20,7 @@
   object-position: top;
   border: 5px solid white;
   border-radius: 12px;
-  background-color: #ffe1bf;
+  background-color: #FFE69A;
   transform: rotateZ(-5deg);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
@@ -24,17 +28,17 @@
 #welcome h2 {
   font-size: 3.5rem;
   margin: 0 0 0 2rem;
-  color: #e4e4e4;
+  color: #FFFFFF;
   width: 10rem;
 }
 
 #welcome p {
-  color: white;
+  color: #FFFFFF;
   font-size: 1.5rem;
 }
 
 #latest-posts {
-  background-color: white;
+  background-color: #FFE69A;
   padding: 2rem;
   border-radius: 12px;
   width: 60rem;
@@ -61,7 +65,7 @@
 #about {
   text-align: center;
   padding: 3rem;
-  background-color: #e48900;
+  background-color: #92B4EC;
   margin-top: 5rem;
 }
 
