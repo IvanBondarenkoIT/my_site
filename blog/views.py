@@ -30,7 +30,7 @@ class AllPostsView(ListView):
 class SinglePostView(View):
 
     def is_stored_post(self, request, post_id):
-        stored_posts = request.session.get('stored_posts')
+        stored_posts = request.session.get('stored_post')
         if stored_posts is not None:
             is_saved_for_later = post_id in stored_posts
         else:
